@@ -3,15 +3,14 @@ import React from 'react';
 import './styles.css';
 
 const Animation = () => {
-
     setTimeout(() => {
-        document.getElementById('bg-animation').style = "display:none";
+        document.getElementById('bg-animation').style = "display: none";
     }, 2000);
 
-    return(
+    return (
         <div className="bg-animation" id="bg-animation">
             <div className="animation">
-                <h2>Luck Code</h2>
+                <h2>Luke Code</h2>
             </div>
         </div>
     );
